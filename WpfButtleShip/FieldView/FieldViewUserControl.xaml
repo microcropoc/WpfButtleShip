@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="WpfButtleShip.FieldView.FieldViewUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfButtleShip.FieldView"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Name="gridField">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <!--<RowDefinition></RowDefinition>-->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <!--<ColumnDefinition></ColumnDefinition>-->
+        </Grid.ColumnDefinitions>
+        <!--<TextBlock TextAlignment="Center" Background="Azure">/</TextBlock>-->
+        <!--colomns--><!--
+        <TextBlock Grid.Column="1" TextAlignment="Center" Background="Azure">A</TextBlock>
+        <TextBlock Grid.Column="2" TextAlignment="Center" Background="Azure">B</TextBlock>
+        <TextBlock Grid.Column="3" TextAlignment="Center" Background="Azure">C</TextBlock>
+        <TextBlock Grid.Column="4" TextAlignment="Center" Background="Azure">D</TextBlock>
+        <TextBlock Grid.Column="5" TextAlignment="Center" Background="Azure">E</TextBlock>
+        <TextBlock Grid.Column="6" TextAlignment="Center" Background="Azure">F</TextBlock>
+        <TextBlock Grid.Column="7" TextAlignment="Center" Background="Azure">G</TextBlock>
+        <TextBlock Grid.Column="8" TextAlignment="Center" Background="Azure">H</TextBlock>
+        <TextBlock Grid.Column="9" TextAlignment="Center" Background="Azure">I</TextBlock>
+        <TextBlock Grid.Column="10" TextAlignment="Center" Background="Azure">J</TextBlock>
+        --><!--rows--><!--
+        <TextBlock Grid.Row="1" TextAlignment="Center" Background="Azure">1</TextBlock>
+        <TextBlock Grid.Row="2" TextAlignment="Center" Background="Azure">2</TextBlock>
+        <TextBlock Grid.Row="3" TextAlignment="Center" Background="Azure">3</TextBlock>
+        <TextBlock Grid.Row="4" TextAlignment="Center" Background="Azure">4</TextBlock>
+        <TextBlock Grid.Row="5" TextAlignment="Center" Background="Azure">5</TextBlock>
+        <TextBlock Grid.Row="6" TextAlignment="Center" Background="Azure">6</TextBlock>
+        <TextBlock Grid.Row="7" TextAlignment="Center" Background="Azure">7</TextBlock>
+        <TextBlock Grid.Row="8" TextAlignment="Center" Background="Azure">8</TextBlock>
+        <TextBlock Grid.Row="9" TextAlignment="Center" Background="Azure">9</TextBlock>
+        <TextBlock Grid.Row="10" TextAlignment="Center" Background="Azure">10</TextBlock>-->
+    </Grid>
+</UserControl>

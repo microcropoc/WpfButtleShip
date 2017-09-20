@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfButtleShip.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfButtleShip"
+        xmlns:user="clr-namespace:WpfButtleShip.FieldView"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <!--forMenu-->
+            <RowDefinition Height="auto" ></RowDefinition>
+            <!--forWorkArea-->
+            <RowDefinition></RowDefinition>
+            <!--forButtons-->
+            <RowDefinition Height="auto"></RowDefinition>
+            <!--forStatusBar-->
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <!--Menu-->
+        <Menu>
+            <MenuItem Header="Игра"></MenuItem>
+            <MenuItem Header="Выход"></MenuItem>
+        </Menu>
+        
+        <!--WorkArea-->
+        <Grid Grid.Row="1" Name="gridForFields" Background="Beige">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Name="gridForUserField" Margin="5">
+                <!--<user:FieldViewUserControl  x:Name="UserField"></user:FieldViewUserControl>-->
+            </Grid>
+            <Grid Grid.Column="1" Name="gridForComputerField" Margin="5">
+                <!--<user:FieldViewUserControl x:Name="ComputerField"></user:FieldViewUserControl>-->
+            </Grid>
+        </Grid>
+        
+    </Grid>
+</Window>
